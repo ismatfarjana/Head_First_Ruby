@@ -34,6 +34,19 @@
 
  end
 
+
+ class square<Rectangle
+  def width=(value)
+    @width = value
+    @height = value
+  end
+  def height=(value)
+    @width = value
+    @height = value
+  end
+
+ end
+
  p paragraph("i love you")
  p image("puppy.jpg", 800, 600)
 
